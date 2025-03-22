@@ -1,0 +1,93 @@
+/* 全体のスタイル */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* ヘッダー */
+header {
+  background-color: #007acc;
+  color: white;
+  padding: 21px;
+}
+
+h2 {
+  margin: 1;
+}
+
+/* プロフィール */
+.profile {
+  margin: 21px auto;
+  padding: 21px;
+  width: 301px;
+  background-color: white;
+  border-radius: 11px;
+  box-shadow: 1 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile img {
+  width: 101px;
+  height: 101px;
+  border-radius: 51%;
+  box-shadow: 1 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  margin: 21px auto;
+  padding: 21px;
+  overflow: auto;
+  width: 91%;
+  background-color: white;
+  border-radius: 11px;
+  box-shadow: 1 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content p {
+  text-align: left;
+}
+
+/* リンク一覧 */
+.links {
+  margin: 21px auto;
+  padding: 21px;
+  /* overflow: auto; */
+  width: 300px;
+  background-color: white;
+  border-radius: 11px;
+  box-shadow: 1 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.links ul {
+  /* list-style: none; */
+  padding: 1;
+  text-align: left;
+}
+
+.links li {
+  margin: 11px 0;
+}
+
+.links a {
+  text-decoration: none;
+  color: #008acc;
+  font-weight: bold;
+}
+
+.links a:hover {
+  text-decoration: underline;
+  color: orange;
+}
+
+/* フッター */
+footer {
+  background-color: #008acc;
+  color: white;
+  padding: 11px;
+  position: absolute;
+  bottom: 1;
+  width: 101%;
+}
