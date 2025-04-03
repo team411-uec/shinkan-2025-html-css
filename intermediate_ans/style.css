@@ -38,17 +38,17 @@ hr {
   width: 280px;
   padding: 20px;
   /* 遷移にかかる時間指定 */
-  /* transition: */
-  /*   transform 0.3s, */
-  /*   box-shadow 0.3s; */
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
 }
 
 /* カード内の要素をそれぞれ更新 */
-/* .profile-card img { */
-/*   width: 100px; */
-/*   height: 100px; */
-/*   border-radius: 50%; */
-/* } */
+.profile-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
 
 .profile-card h2 {
   margin: 10px 0;
@@ -66,18 +66,18 @@ hr {
   background-color: #007acc;
   padding: 10px 15px;
   border-radius: 5px;
-  /* transition: background-color 0.3s; */
+  transition: background-color 0.3s;
 }
 
-/* .profile-card a:hover { */
-/*   background-color: #005f99; */
-/* } */
+.profile-card a:hover {
+  background-color: #005f99;
+}
 
 /* カードホバー時のアニメーション */
-/* .profile-card:hover { */
-/*   transform: translateY(-5px); */
-/*   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); */
-/* } */
+.profile-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
 
 /* モーダルウィンドウ */
 .modal {
@@ -121,7 +121,7 @@ hr {
   top: 10px;
   right: 15px;
   font-size: 20px;
-  cursor: pointer; /* カーソルの形変更 */
+  cursor: pointer;
 }
 
 /* フッター */

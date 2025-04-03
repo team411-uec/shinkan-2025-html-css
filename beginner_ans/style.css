@@ -21,19 +21,19 @@ h2 {
 
 /* プロフィール */
 .profile {
-  margin: 20px auto; /* 上空白20px, 下空白自動調整 */
+  margin: 20px auto;
   padding: 20px;
   width: 300px;
   background-color: white;
-  /* border-radius: 10px; */
-  /* box-shadow: 1 0 10px rgba(0, 0, 0, 0.1); */
+  border-radius: 10px;
+  box-shadow: 1 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .profile img {
   width: 100px;
   height: 100px;
-  /* border-radius: 50%; */
-  /* box-shadow: 1 0 10px rgba(0, 0, 0, 0.1); */
+  border-radius: 50%;
+  box-shadow: 1 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .content {
@@ -42,8 +42,8 @@ h2 {
   overflow: auto;
   width: 90%;
   background-color: white;
-  /* border-radius: 10px; */
-  /* box-shadow: 1 0 10px rgba(0, 0, 0, 0.1); */
+  border-radius: 10px;
+  box-shadow: 1 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .content p {
@@ -54,15 +54,15 @@ h2 {
 .links {
   margin: 21px auto;
   padding: 21px;
-  /* overflow: auto; */
+  overflow: auto;
   width: 300px;
   background-color: white;
-  /* border-radius: 11px; */
-  /* box-shadow: 1 0 10px rgba(0, 0, 0, 0.1); */
+  border-radius: 11px;
+  box-shadow: 1 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .links ul {
-  /* list-style: none; */
+  list-style: none;
   padding: 1;
   text-align: left;
 }
@@ -77,10 +77,10 @@ h2 {
   font-weight: bold;
 }
 
-/* .links a:hover { */
-/*   text-decoration: underline; */
-/*   color: orange; */
-/* } */
+.links a:hover {
+  text-decoration: underline;
+  color: orange;
+}
 
 /* フッター */
 footer {
