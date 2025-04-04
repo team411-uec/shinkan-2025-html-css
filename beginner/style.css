@@ -56,9 +56,7 @@ h2 {
 .links {
   margin: 21px auto;
   padding: 21px;
-  /* overflow: auto; */
   width: 300px;
-  height: 100px;
   background-color: white;
   border: black 1px solid;
   /* border-radius: 20px; */
@@ -81,10 +79,10 @@ h2 {
   font-weight: bold;
 }
 
-/* .links a:hover { */
-/*   text-decoration: underline; */
-/*   color: orange; */
-/* } */
+.links a:hover {
+  /* text-decoration: underline; */
+  /* color: orange; */
+}
 
 /* フッター */
 footer {
