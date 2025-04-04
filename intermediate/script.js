@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // プロフィール画像をクリックしたらモーダルを表示
   document.querySelectorAll(".profile-card").forEach((card) => {
     // .profile-cardクラスの設定された各要素を取得
-    // card.addEventListener("click", function () {
+    card.addEventListener("click", function () {
       // ブラウザでクリック時
       // modalImg.src = this.getAttribute("data-img");
       // modalName.textContent = this.getAttribute("data-name");
